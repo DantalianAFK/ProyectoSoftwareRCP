@@ -117,7 +117,7 @@ ol{
     width: 100px;
     height: 25px;
     color: white;
-    background-color: #ffc332;
+    background-color: #9DD30D;
   }
   td {
     border: 1px solid #d5d9d9;
@@ -143,6 +143,12 @@ ol{
     border-collapse: collapse;    
           
   }
+  .titulo{
+    color: #FF8901;
+    font-family:"Quicksand", sans-serif;
+    text-align: center;    
+  }
+  
   .caja label {
     font-family: "Quicksand", sans-serif;
     border: 1px solid #d5d9d9;
