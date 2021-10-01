@@ -7,19 +7,29 @@
           <form @submit.prevent="handleUpdateForm">
             <div class="form-group">
               <input
-                type="text"
+                type="number"
                 class="form-control"
                 v-model="product.ID"
                 required
+                placeholder="Digite el ID"
+                minlength="5"
+                maxlength="5"
               />
+              <div class="validacion">
+                <p>
+                  El ID es un número de 5 dígitos.
+                </p>
+              </div>
             </div>
-
-            <div class="form-group my-4">
+            <div class="form-group">
               <input
                 type="text"
                 class="form-control"
                 v-model="product.Nombre"
                 required
+                placeholder="Digite el nombre"
+                minlength="1"
+                maxlength="30"
               />
             </div>
 
@@ -29,6 +39,9 @@
                 class="form-control"
                 v-model="product.Marca"
                 required
+                placeholder="Digite la marca"
+                minlength="1"
+                maxlength="30"
               />
             </div>
 
@@ -38,6 +51,7 @@
                 class="form-control"
                 v-model="product.Caducidad"
                 required
+                placeholder="Digite la fecha de caducidad"
               />
             </div>
 
@@ -60,7 +74,7 @@
   padding: 20px 10px;
   width: 560px;
   height: 70px;
-  background: transparent;
+  background: white;
   padding: 5px;
   border-radius: 0.5em;
   font: bold;
@@ -87,6 +101,12 @@
   background: linear-gradient(21deg, rgb(0, 140, 255), #20b5fa);
   padding: 3px;
   border-radius: 1em;
+  position: relative;
+  top: 50%;
+  left: 28.5%;
+}
+.validacion {
+  color: white;
   position: relative;
   top: 50%;
   left: 28.5%;

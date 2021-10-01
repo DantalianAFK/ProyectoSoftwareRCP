@@ -33,12 +33,14 @@
             Keller."
           </div>
         </v-card-text>
+        <!--
         <v-card-actions>
           <v-btn text color="deep-purple accent-4">
             Learn More
           </v-btn>
         </v-card-actions>
       </v-card>
+      -->
 
       <v-card class="mx-auto" max-width="344">
         <v-card-text>
@@ -56,12 +58,13 @@
             cima. Anónimo."
           </div>
         </v-card-text>
+         <!--
         <v-card-actions>
           <v-btn text color="deep-purple accent-4">
             Learn More
           </v-btn>
         </v-card-actions>
-      </v-card>
+      </v-card> -->
 
       <v-card class="mx-auto" max-width="344">
         <v-card-text>
@@ -81,11 +84,12 @@
             más tarde. Og Mandino."
           </div>
         </v-card-text>
+         <!--
         <v-card-actions>
           <v-btn text color="deep-purple accent-4">
             Seguir Leyendo
           </v-btn>
-        </v-card-actions>
+        </v-card-actions> -->
       </v-card>
     </v-row>
   </div>

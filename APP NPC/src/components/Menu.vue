@@ -49,8 +49,8 @@
           <v-divider></v-divider>
           <v-list-item>
             <v-list-item-title class="font-weight-bold">
-              <router-link to="/Pbusqueda">
-                Listar productos
+              <router-link to="/Plista">
+                Lista de productos
               </router-link>
             </v-list-item-title>
           </v-list-item>
