@@ -3,5 +3,5 @@
   };*/
 
   module.exports = {
-    db: "mongodb+srv://jairobandera:proyectonpc@cluster0.csokb.mongodb.net/ProyectoNPC?retryWrites=true&w=majority",
+    db: "mongodb+srv://Santiago19:1004490763sa@cluster0.vbhji.mongodb.net/test",
   };

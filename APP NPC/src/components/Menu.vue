@@ -62,11 +62,12 @@
               </router-link>
             </v-list-item-title>
           </v-list-item>
-          <v-divider></v-divider>
-          <v-list-item>
-            <v-list-item-title class="font-weight-bold font"
-              >Productos proximos a caducar</v-list-item-title
-            >
+         <v-list-item>
+            <v-list-item-title class="font-weight-bold">
+              <router-link to="/Pvencer">
+                Productos Proximos a Caducar
+              </router-link>
+            </v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>

@@ -15,6 +15,11 @@ const routes = [
     component: () => import("../views/productos_vencidos.vue"),
   },
   {
+    path: "/Pvencer",
+    name: "Proximosv",
+    component: () => import("../views/Proximosv.vue"),
+  },
+  {
     path: "/Pbusqueda",
     name: "Busqueda",
     component: () => import("../views/Busqueda.vue"),
@@ -34,6 +39,7 @@ const routes = [
     name: "Lista",
     component: () => import("../components/Lista.vue"),
   },
+  
 ];
 
 const router = new VueRouter({
