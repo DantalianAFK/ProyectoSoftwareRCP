@@ -21,7 +21,7 @@ mongoose
     }
   );
 
-const productAPI = require("../server/routes/product.route");
+const productAPI = require("../Server/routes/product.route");
 const app = express();
 app.use(bodyParser.json());
 app.use(

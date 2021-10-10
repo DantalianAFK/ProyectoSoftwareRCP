@@ -56,7 +56,7 @@ export default {
   created() {
     let apiURL = "http://localhost:4000/api";
     axios
-      .get(apiURL)
+      .get("https://immense-inlet-27755.herokuapp.com/")
       .then((res) => {
         this.Products = res.data;
       })
@@ -71,7 +71,7 @@ export default {
 
       if (window.confirm("¿Desea borrar el Item?")) {
         axios
-          .delete(apiURL)
+          .delete("https://immense-inlet-27755.herokuapp.com/")
           .then(() => {
             this.Products.splice(indexOfArrayItem, 1);
           })

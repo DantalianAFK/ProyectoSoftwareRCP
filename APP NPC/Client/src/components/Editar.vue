@@ -124,7 +124,7 @@ export default {
   created() {
     let apiURL = `http://localhost:4000/api/edit-product/${this.$route.params.id}`;
 
-    axios.get(apiURL).then((res) => {
+    axios.get("https://immense-inlet-27755.herokuapp.com/").then((res) => {
       this.product = res.data;
     });
   },
@@ -133,7 +133,7 @@ export default {
       let apiURL = `http://localhost:4000/api/update-product/${this.$route.params.id}`;
 
       axios
-        .put(apiURL, this.product)
+        .put("https://immense-inlet-27755.herokuapp.com/", this.product)
         .then((res) => {
           console.log(res);
           this.$router.push("/Plista");
